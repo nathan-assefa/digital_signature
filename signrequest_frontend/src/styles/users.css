@@ -1,0 +1,248 @@
+.users-right-col {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: white;
+  margin-top: 1em;
+  font-family: Lato, "Open Sans", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  height: 100vh;
+}
+
+.users-header {
+  background: var(--blue-color);
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  padding-left: 1em;
+}
+
+.single-team-detail {
+  display: flex;
+  align-items: center;
+}
+
+.single-team-detail .team-detail {
+  margin-left: 1em;
+}
+
+.single-team-detail .team-st-icon {
+  width: 20px;
+  height: 20px;
+  color: rgb(137, 128, 128);
+}
+
+.single-team-detail .team-detail-icon {
+  color: rgb(137, 128, 128);
+  height: 24px;
+  width: 24px;
+  margin-top: -1em;
+}
+
+.single-team-detail .team-name {
+  font-size: 18px;
+  color: rgb(43, 41, 41);
+  font-weight: 600;
+  line-height: 24px;
+  font-family: Lato;
+}
+
+.single-team-detail .signed-date,
+.team-id,
+.is-signed {
+  font-size: 14.8px;
+  line-height: 8px;
+  font-weight: lighter;
+  font-family: Lato;
+  color: #837c7c;
+  font-family: Lato;
+}
+
+.single-team-detail .signed-date {
+  margin-top: -0.9em;
+}
+
+.single-team-detail .team-status {
+  display: flex;
+  align-items: center;
+  margin-top: -1.2em;
+}
+
+.single-team-detail .team-st-icon {
+  margin-right: 0.3em;
+}
+
+.single-team-detail .team-count,
+.team-count-value {
+  color: #08e008;
+  margin-right: 0.3em;
+  font-size: 14px;
+}
+
+.change-user {
+  width: 160.3px;
+  height: 34px;
+  color: white;
+  font-weight: bold;
+  line-height: 21px;
+  font-size: 12px;
+  font-family: Lato;
+  border: none;
+  margin-top: 2em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: var(--blue-color);
+  cursor: pointer;
+}
+
+.upgrate-user {
+  text-align: center;
+  font-family: Lato;
+  font-size: 12px;
+  color: #779ae0;
+  line-height: 21px;
+  font-weight: lighter;
+  margin-top: 5px;
+  letter-spacing: 0.4px;
+  cursor: pointer;
+}
+
+.add-users-to-team {
+  line-height: 24px;
+  font-weight: lighter;
+  font-size: 12px;
+  color: rgb(120, 109, 109);
+  text-align: center;
+  letter-spacing: 0.4px;
+  margin-top: 1.6em;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.add-users-to-team span {
+  color: var(--blue-color);
+  cursor: pointer;
+}
+
+.delete-selected-user {
+  min-width: 90px;
+  color: black;
+  padding: 0.5em;
+  border: none;
+  background: rgb(207, 197, 197);
+  cursor: pointer;
+}
+
+.members-info {
+  margin-left: 2em;
+}
+
+/* For user list header */
+
+.users-list-container {
+  margin-left: -2em;
+}
+
+.members-info .team-members-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0.5em;
+}
+
+.members-info .members {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: Lato;
+  color: #222222;
+  margin-left: 0.4em;
+  margin-bottom: -0.5em;
+}
+
+.members-info .member-name-header,
+.member-email-header,
+.member-status-header {
+  font-size: 16px;
+  line-height: 24px;
+  width: 30%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 600;
+}
+
+.member-status-header {
+  text-align: center;
+}
+
+/******/
+
+.members-info .team-members-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0.5em;
+  border: 1px solid rgb(218, 211, 211);
+}
+
+.members-info .member-name,
+.member-email,
+.member-status {
+  color: var(--bold-blue-color);
+  font-size: 14px;
+  line-height: 24px;
+  width: 30%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 600;
+}
+
+.member-status {
+  color: #08e008;
+}
+
+.members-info .member-name {
+  width: 15%;
+}
+
+.user-check-box {
+  margin-right: 0.5em;
+}
+
+.user-page-loading-state,
+.user-page-no-user {
+  width: 100%;
+  height: 100vh;
+}
+
+@media screen and (min-width: 850px) {
+  .member-status-header {
+    text-align: unset;
+  }
+  .users-wrapper {
+    display: grid;
+    grid-template-columns: 28% 1fr;
+    width: 100%;
+  }
+
+  .users-right-col {
+    margin-right: 2em;
+    margin-left: -1.3em;
+  }
+
+  .users-list-container {
+    margin-left: unset;
+  }
+
+  .members-info .recivier-email {
+    width: unset;
+  }
+}

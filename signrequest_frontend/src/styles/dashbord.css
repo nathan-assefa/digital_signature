@@ -1,0 +1,89 @@
+.side-bar-container {
+  font-family: Sanserif;
+}
+
+.two-col-wrapper {
+  display: flex;
+  margin-left: 3em;
+}
+
+.icon-wrapper,
+.single-row-right {
+  margin-right: 2em;
+  height: 42px;
+  /* padding-top: 0.6em; */
+}
+
+.sigle-row-left {
+  padding-left: 1em;
+}
+
+.side-bar-icon {
+  --tw-text-opacity: 1;
+  color: white;
+  /* height: 18px;
+  width: 18px; */
+  height: 21px;
+  width: 21px;
+}
+
+.single-row-right {
+  margin-left: 9%;
+  color: rgb(232, 219, 219);
+  font-weight: 700;
+}
+
+.left-col {
+  background: #17527d;
+  height: 366px;
+  width: 3.6em;
+  padding-top: 5em;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+.right-col {
+  background: #1569a6;
+  height: 391px;
+  /* width: 180px; */
+  width: 190px;
+  padding-top: 4.3em;
+  position: relative;
+  margin-top: 1.2em;
+  font-size: 13px;
+  font-family: Lato;
+}
+
+.menu {
+  margin-top: 2.1em;
+}
+
+.right-col .avator {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  top: 1em;
+  z-index: 999;
+  left: 20%;
+}
+
+.avator p {
+  color: white;
+  margin-left: 0.3em;
+  /* position: relative; */
+}
+
+.avator span {
+  text-transform: capitalize;
+}
+
+.avator p::before {
+  content: "";
+  background: white;
+  width: 136px;
+  height: 2.3px;
+  bottom: 0.6em;
+  left: 0;
+  position: absolute;
+  z-index: 99999;
+}

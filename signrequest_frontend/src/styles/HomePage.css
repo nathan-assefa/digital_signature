@@ -1,0 +1,796 @@
+:root {
+  --blue-color: #4b9cd7;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section.features-section {
+  padding: 5em 2em;
+}
+
+.homepage-wrapper {
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.signing-related-inputes {
+  background-color: white;
+  margin-bottom: 2em;
+  margin-top: 1.5em;
+  padding-bottom: 1.4em;
+  padding-top: 0.1em;
+  border-radius: 1em;
+  min-height: 350px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 2px 4px rgba(96, 86, 86, 0.1);
+  position: relative;
+}
+
+.signing-related-inputes .add-file {
+  background: var(--blue-color);
+  width: 90%;
+  height: 4em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  border: none;
+  border-radius: 2em;
+  margin-top: 3em;
+  color: white;
+  font-family: Poppins;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+}
+
+.inviter {
+  margin-top: 3em;
+}
+
+.inviter .inviter-email {
+  margin-left: 1.3em;
+  display: flex;
+  align-items: center;
+}
+
+.add-contact {
+  margin-left: 1.3em;
+  margin-top: 1em;
+  cursor: pointer;
+  color: rgb(132, 123, 123);
+  position: relative;
+}
+
+.add-con-btn {
+  width: 80%;
+}
+
+.email-input-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.email-input-wrapper button {
+  background: white;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.home-left-col .email-input {
+  border: none;
+  border-bottom: 1px solid #e9dddd;
+  margin-bottom: 1em;
+  outline: none;
+  width: 100%;
+  height: 2.4em;
+  padding-left: 2em;
+  font-size: 16px;
+}
+
+.home-left-col .email-input::placeholder {
+  font-size: 14px;
+  font-family: Lato;
+}
+
+.home-left-col .user-x {
+  color: rgb(137, 128, 128);
+  height: 16px;
+  width: 16px;
+  margin-right: 2em;
+}
+
+.sender-message {
+  position: relative;
+}
+
+.message-input {
+  border: none;
+  border-bottom: 1px solid #e9dddd;
+  margin-bottom: 1em;
+  outline: none;
+  width: 92%;
+  height: 5.4em;
+  margin-top: 2em;
+  resize: vertical;
+  font-size: 16px;
+  font-family: Lato;
+}
+
+.message-input::placeholder {
+  font-size: 12px;
+  color: rgb(167, 160, 160);
+}
+
+.inviter-email span {
+  margin-left: 8em;
+}
+.help-add-contact,
+.help-message {
+  position: absolute;
+  right: 0;
+  z-index: 999;
+  width: 19px;
+  height: 19px;
+  color: var(--blue-color);
+  margin-left: 0.3em;
+}
+
+.help-add-contact {
+  top: 0em;
+  right: 0.3em;
+}
+
+.help-message {
+  top: 1.8em;
+  right: 0.3em;
+}
+
+.help-decription {
+  position: absolute;
+  /* left: 99%; */
+  color: black;
+  min-width: 93%;
+  background-color: white;
+  border-radius: 1em;
+  padding: 1em;
+  font-size: 14px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  font-family: Lato;
+  z-index: 9999999;
+}
+
+.help-add-cont-desc {
+  top: -2em;
+  left: -2em;
+  width: 70%;
+}
+
+.help-msg-desc {
+  top: 2.5em;
+}
+
+.left-col-footer {
+  margin-top: 4em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.help-btn,
+.setting-btn {
+  color: var(--blue-color);
+  border: none;
+  font-weight: bold;
+  font-family: Lato;
+  background: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.disabled-btn,
+.active-btn {
+  background: rgb(212, 193, 193);
+  width: 10em;
+  height: 3em;
+  border: none;
+  border-radius: 2em;
+  color: rgb(250, 223, 223);
+  font-size: 16px;
+  font-family: Lato;
+  font-weight: bold;
+}
+
+.active-btn {
+  background: #4b9cd7;
+  cursor: pointer;
+}
+
+.home-right-col {
+  margin-left: 0.7em;
+}
+
+.home-right-col h1 {
+  font-family: Poppins;
+  text-align: center;
+  width: 90%;
+  margin-left: 0.3em;
+  font-size: 2.2em;
+  line-height: 1.3em;
+  margin-top: 2em;
+}
+
+.home-right-col .subhead {
+  color: black;
+  letter-spacing: 0.1em;
+  width: 90%;
+  text-align: center;
+  font-family: Poppins;
+  /* font-size: 13px; */
+  font-size: 15px;
+  margin-left: 1em;
+  margin-top: -0.6em;
+  margin-bottom: 4em;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.landing-pic {
+  background-image: url("../images/land-pic.jpg");
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -1em;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-left: -1em; */
+  background-position-x: 120%;
+  background-position-y: 100%;
+}
+
+.land-middle {
+  margin-top: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* background: var(--blue-color); */
+  background: #4c6678;
+  min-height: 40px;
+}
+
+.middle-left,
+.middle-right {
+  height: 100%;
+  text-align: center;
+}
+
+.pipette,
+.sing-check {
+  margin-right: 0.5em;
+  color: rgb(246, 246, 246);
+  height: 24px;
+  width: 24px;
+  margin-bottom: -0.5em;
+  margin-top: 0.5em;
+}
+
+.fast-secure,
+.sign-anywhere {
+  color: white;
+  font-size: 15px;
+}
+
+/* features-enumurate */
+section.features-section {
+  /* background: #20272e; */
+  background: #4c6678;
+  color: white;
+  margin-top: 5em;
+  position: relative;
+}
+
+ul.features-list {
+  margin: 0;
+  padding-left: 0.1em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(19rem, 1fr)) [auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+}
+
+ul.features-list li {
+  font-size: 16px;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  position: relative;
+  text-align: left;
+  font-family: Lato;
+}
+
+ul.features-list li:before {
+  content: "";
+  left: -2em;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url("../images/bullet.svg");
+  background-size: contain;
+  margin-right: 0.5em;
+}
+
+.features-section .signing-picuture {
+  /* display: none; */
+  display: block;
+  background-image: url("../images/sign-3.jpg");
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  width: 170px;
+  bottom: -5em;
+  z-index: 9999;
+  height: 130px;
+}
+
+/* features */
+.features {
+  text-align: center;
+  margin-top: 5em;
+}
+
+.features .e-sign {
+  color: var(--blue-color);
+  /* font-size: 18px; */
+  font-size: 20px;
+  line-height: 24px;
+  font-family: Lato;
+  font-weight: 700;
+}
+
+.features .e-sign-dicription {
+  color: rgb(63, 61, 61);
+  /* font-size: 13px; */
+  font-size: 15px;
+  width: 93%;
+  line-height: 13px;
+  font-family: Lato;
+  font-weight: 700;
+  margin-top: -1em;
+  letter-spacing: 0.6px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features .two-features {
+  margin-top: 3em;
+}
+
+.features .two-features .srch-check,
+.two-features .heart {
+  color: #2893df;
+  height: 22px;
+  width: 22px;
+}
+
+.features .two-features .fc {
+  font-weight: bold;
+  line-height: 24px;
+  font-family: Lato;
+  /* font-size: 14px; */
+  font-size: 18px;
+  margin-top: -0.1em;
+  color: rgb(63, 61, 61);
+}
+
+.features .two-features .feature-described {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 20px;
+  /* font-size: 13px; */
+  font-size: 15px;
+  margin-top: -0.5em;
+  color: rgb(97, 90, 90);
+  font-family: Lato;
+}
+
+.features .two-features .first-f-d {
+  margin-bottom: 2em;
+}
+
+/*bill pan */
+.bill-plan {
+  margin-top: 8em;
+  font-family: Lato;
+  text-align: center;
+}
+
+.bill-plan .b-p {
+  color: black;
+  /* font-size: 18px; */
+  font-size: 22px;
+  line-height: 24px;
+  font-family: Lato;
+  font-weight: bold;
+}
+
+.bill-plan .b-p-decription {
+  text-align: center;
+  font-family: Lato;
+  /* font-size: 12px; */
+  font-size: 14px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(93, 88, 88);
+  line-height: 21px;
+  font-weight: lighter;
+  margin-top: 5px;
+  letter-spacing: 0.4px;
+  cursor: pointer;
+  margin-top: -0.2em;
+  letter-spacing: 0.3px;
+}
+
+.bill-plan .two-plans {
+  background: rgb(237, 231, 231);
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em;
+  padding: 2em;
+  border: 1px solid rgb(197, 189, 189);
+  border-radius: 20px;
+}
+
+.two-plans .professional {
+  margin-bottom: 4em;
+}
+
+.pro {
+  color: black;
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 21px;
+}
+
+.b-price {
+  color: var(--blue-color);
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 19px;
+  margin-top: -0.6em;
+}
+
+.per-mon {
+  color: grey;
+  font-size: 15px;
+  margin-top: -1em;
+}
+
+.unlimited {
+  color: var(--blue-color);
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: -0.5em;
+}
+
+.bill-plan .learn-more {
+  width: 100.3px;
+  height: 34px;
+  color: white;
+  line-height: 21px;
+  font-size: 15px;
+  font-family: Lato;
+  border: none;
+  margin-top: 2em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: var(--blue-color);
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+/* Testimonial section*/
+.testimonials-section {
+  background: var(--primary-color);
+  color: white;
+  padding: 5em 0;
+}
+
+.testimonials-section li {
+  background: var(--blue-color);
+  text-align: center;
+  padding: 2em 1em;
+  width: 59%;
+  margin: 0 auto 5em auto;
+  border-radius: 1em;
+  font-size: 16px;
+}
+
+.testimony-picture {
+  background-image: url("../images/Nathan.JPG");
+  background-size: cover;
+  width: 5em;
+  height: 5em;
+  border: 5px solid var(--blue-color);
+  border-radius: 50%;
+  margin-top: -4.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testimony-right {
+  background-image: url("../images/illustration.svg");
+  background-size: cover;
+  width: 75%;
+  margin-right: 12em;
+  height: 250px;
+  margin-bottom: -5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 850px) {
+  .homepage {
+    display: grid;
+    grid-template-columns: 36% 1fr;
+    width: 100%;
+  }
+
+  .signing-related-inputes {
+    margin-left: 2em;
+    width: unset;
+    margin-right: unset;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .help-add-contact,
+  .help-message {
+    position: absolute;
+    right: 0;
+    z-index: 999;
+    width: 19px;
+    height: 19px;
+    color: var(--blue-color);
+    margin-left: 0.3em;
+  }
+
+  .help-add-contact {
+    top: 0em;
+    right: 0.3em;
+  }
+
+  .help-message {
+    top: 1.8em;
+    right: 0.3em;
+  }
+
+  .help-decription {
+    position: absolute;
+    left: 99%;
+    color: black;
+    min-width: 300px;
+    background-color: white;
+    border-radius: 1em;
+    padding: 1em;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    font-family: Lato;
+  }
+
+  .help-add-cont-desc {
+    top: -2em;
+  }
+
+  .help-msg-desc {
+    top: 2em;
+  }
+
+  .home-right-col {
+    margin-left: 3em;
+  }
+
+  .home-right-col h1 {
+    font-size: 50px;
+    line-height: 1.3em;
+    margin-top: 0.2em;
+    font-family: Poppins;
+    text-align: center;
+    width: unset;
+  }
+  .home-right-col .subhead {
+    /* color: var(--blue-color); */
+    width: 80%;
+    font-size: 16px;
+    margin-left: 3.8em;
+    margin-top: -1.6em;
+  }
+
+  .landing-pic {
+    background-image: url("../images/land-pic.jpg");
+    width: 82%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 2em;
+    margin-left: 3.8em;
+    background-position-x: -100%;
+    background-position-y: 100%;
+  }
+
+  .middle-left,
+  .middle-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: unset;
+    text-align: unset;
+  }
+
+  .pipette,
+  .sing-check {
+    height: 22px;
+    width: 22px;
+    margin-bottom: unset;
+    margin-top: unset;
+  }
+
+  .fast-secure,
+  .sign-anywhere {
+    color: white;
+    font-size: 20px;
+  }
+
+  .features-section .signing-picuture {
+    right: 0;
+    width: 350px;
+    bottom: -2em;
+    z-index: 9999;
+    height: 330px;
+  }
+
+  /* features */
+  .features {
+    margin-top: 5em;
+  }
+
+  .features .e-sign-dicription {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Lato;
+  }
+
+  .two-features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3em;
+  }
+
+  .features .two-features .srch-check,
+  .two-features .heart {
+    height: 25px;
+    width: 25px;
+  }
+
+  .features .two-features .fc {
+    font-size: 20px;
+    color: rgb(24, 23, 23);
+  }
+
+  .features .two-features .feature-described {
+    width: 40%;
+    /* font-size: 14px; */
+    font-size: 16px;
+  }
+
+  .features .two-features .first-f-d {
+    margin-bottom: unset;
+  }
+
+  /*bill pan */
+  .bill-plan .two-plans {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .two-plans .professional {
+    margin-bottom: unset;
+  }
+
+  .bill-plan .b-p-decription {
+    font-size: 14px;
+    width: unset;
+    margin-left: unset;
+    margin-right: unset;
+  }
+
+  .b-price {
+    font-size: 22px;
+    margin-top: -0.4em;
+  }
+
+  .bill-plan .learn-more {
+    width: 140.3px;
+    font-size: 12px;
+  }
+
+  .testimonials-section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: -10em;
+    margin-top: 5em;
+  }
+
+  .testimonials-section li {
+    width: 35%;
+    margin: 0 auto 5em auto;
+  }
+
+  .testimony-right {
+    background-image: url("../images/illustration.svg");
+    background-size: cover;
+    width: 35%;
+    margin-right: 12em;
+    height: 250px;
+    margin-top: -4em;
+    margin-bottom: unset;
+    margin-left: unset;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  ul.features-list {
+    display: block;
+    margin-left: 5em;
+  }
+  ul.features-list li {
+    font-size: 1.2em;
+  }
+  ul.features-list li:before {
+    width: 30px;
+    height: 30px;
+  }
+  .features-section {
+    position: relative;
+  }
+  .features-section img {
+    display: block;
+    position: absolute;
+    right: 0;
+    width: 350px;
+    bottom: -2em;
+  }
+
+  .features-section:before {
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 20em;
+    background: var(--primary-color);
+    left: 0;
+    top: -4em;
+  }
+  .features-section:after {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 20em;
+    background: url("../images/dots.svg") no-repeat;
+    left: -2em;
+    top: -2em;
+  }
+}

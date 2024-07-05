@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+:root {
+  --blue-color: #4b9cd7;
+}
+
+.header-wrapper {
+  background: white;
+  color: var(--blue-color);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding-left: 2em;
+  padding-right: 2em;
+  height: 5em;
+  font-family: Lato;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-left: -1em;
+}
+
+.header-left .e-signature {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--blue-color);
+}
+
+.header-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+
+.sign-in {
+  color: rgb(50, 49, 49);
+  margin-right: 1em;
+}
+
+.get-started {
+  width: 7em;
+  height: 28px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: Lato;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: var(--blue-color);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.header-profile,
+.header-document {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.user-name,
+.my-doc {
+  display: none;
+}
+
+.header-icn {
+  --tw-text-opacity: 1;
+  color: rgb(168, 161, 161);
+  height: 22px;
+  width: 22px;
+  margin-right: 0.3em;
+}
+
+.circle-user-round {
+  margin-left: 1em;
+  margin-right: -1em;
+  width: 29px;
+  height: 29px;
+}
+
+.right-side-pop-up-menu {
+  position: absolute;
+  z-index: 99999999999;
+  right: 0;
+  top: 2em;
+}
+
+.right-menu {
+  background: white;
+  min-height: 366px;
+  width: 170px;
+  padding-top: 0.5em;
+  padding-left: 1em;
+  margin-left: 1em;
+  margin-top: 1em;
+  padding-bottom: 1em;
+  border: 1px solid rgb(197, 189, 189);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.menu-icn {
+  --tw-text-opacity: 1;
+  color: black;
+  height: 18px;
+  width: 18px;
+  margin-right: 1em;
+}
+
+.icon-and-name {
+  display: flex;
+  align-items: center;
+}
+
+.icon-name {
+  font-size: 13px;
+  font-family: Lato;
+  color: black;
+}
+
+.logout-user {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 850px) {
+  .logo {
+    margin-left: unset;
+  }
+  .get-started {
+    width: 10em;
+    height: 34px;
+  }
+  .header-left .e-signature {
+    font-size: 22px;
+  }
+
+  .header-right .documentation,
+  .user-name {
+    display: unset;
+    margin-right: 1em;
+    font-size: 16px;
+  }
+
+  .user-name {
+    display: unset;
+    text-transform: capitalize;
+  }
+
+  .header-icn {
+    height: 22px;
+    width: 22px;
+  }
+
+  .circle-user-round {
+    margin-left: unset;
+    margin-right: 0.3em;
+    width: 30px;
+    height: 30px;
+  }
+}

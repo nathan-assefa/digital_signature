@@ -1,0 +1,247 @@
+:root {
+  --blue-color: #4b9cd7;
+  --bold-blue-color: #1569a6;
+}
+
+.single-document-right-col {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: white;
+  /* margin-right: 2em; */
+  margin-top: 1em;
+  font-family: Lato, "Open Sans", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
+.single-document-header {
+  background: var(--blue-color);
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  padding-left: 2em;
+}
+
+.single-document-header .docs {
+  color: white;
+  font-weight: bold;
+  /* font-size: 12px; */
+  font-size: 14px;
+  font-family: Lato;
+  line-height: 24px;
+}
+
+.single-document-header .docs-name {
+  color: white;
+  font-weight: lighter;
+  /* font-size: 12px; */
+  font-size: 14px;
+  font-family: Lato;
+  line-height: 24px;
+}
+
+.single-doc-detail {
+  display: flex;
+  align-items: center;
+  margin-left: 2em;
+}
+
+.single-doc-detail .doc-detail {
+  margin-left: 1em;
+}
+
+.single-doc-detail .document-detail-icon {
+  color: rgb(137, 128, 128);
+  height: 22px;
+  width: 22px;
+}
+
+.single-doc-detail .doc-name {
+  /* font-size: 12.8px; */
+  font-size: 14.8px;
+  color: #443f3f;
+  font-weight: 600;
+  line-height: 24px;
+  font-family: Lato;
+}
+
+.single-doc-detail .signed-date,
+.document-id,
+.is-signed {
+  /* font-size: 11px; */
+  font-size: 12.8px;
+  line-height: 8px;
+  font-weight: lighter;
+  font-family: Lato;
+  color: #837c7c;
+  font-family: Lato;
+}
+
+.single-doc-detail .signed-date {
+  margin-top: -1em;
+}
+
+.single-doc-detail .doc-status {
+  display: flex;
+  align-items: center;
+  margin-top: 1.2em;
+}
+
+.single-doc-detail .doc-st-icon {
+  margin-right: 0.3em;
+}
+
+.single-doc-detail .is-signed {
+  margin-top: -1em;
+}
+
+.download-documents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.doc-btn {
+  width: 160.3px;
+  height: 34px;
+  color: white;
+  font-weight: bold;
+  line-height: 21px;
+  /* font-size: 12px; */
+  font-size: 14px;
+  font-family: Lato;
+  border: none;
+  margin-top: 2em;
+  display: block;
+  background: var(--blue-color);
+  cursor: pointer;
+}
+
+.download-document {
+  margin-right: 1em;
+}
+
+.download-signing-log {
+  margin-left: 1em;
+}
+
+.recipient-info {
+  margin-left: 2em;
+}
+
+.recipient-info .recipient {
+  /* font-size: 12px; */
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: Lato;
+  color: #222222;
+}
+
+.recipient-info .doc-sender {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 2em;
+  padding-left: 0.5em;
+  border: 1px solid rgb(218, 211, 211);
+  border-bottom: none;
+}
+
+.recipient-info .sender-email,
+.recipient-info .recivier-email {
+  color: var(--bold-blue-color);
+  /* font-size: 12px; */
+  font-size: 14px;
+  line-height: 24px;
+
+  font-weight: 600;
+}
+
+.recipient-info .doc-recivier {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 2em;
+  padding-left: 0.5em;
+  border: 1px solid rgb(218, 211, 211);
+}
+
+.recipient-info .doc-stat,
+.recipient-info .recivier-signed,
+.recipient-info .doc-sign-date {
+  /* font-size: 12px; */
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  color: rgb(179, 168, 168);
+}
+
+.recipient-info .recivier-signed {
+  margin-top: -0.5em;
+  color: #5eb235;
+}
+
+.sender-message {
+  margin-left: 2em;
+  font-family: Lato;
+}
+
+.sender-message .email-info {
+  /* font-size: 12px; */
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: Lato;
+  color: #222222;
+}
+
+.sender-message .sender-msg {
+  /* font-size: 11px; */
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: Lato;
+  color: #837c7c;
+}
+
+.sender-message .msg-detail {
+  margin-left: 2em;
+  padding-left: 0.5em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  border-left: 1px solid rgb(218, 211, 211);
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: Lato;
+  color: #a08d8d;
+  font-weight: lighter;
+}
+
+.sender-message .msg-detail span {
+  color: var(--bold-blue-color);
+}
+
+@media screen and (min-width: 850px) {
+  .single-document-wrapper {
+    display: grid;
+    grid-template-columns: 28% 1fr;
+    width: 100%;
+    margin-bottom: 2em;
+  }
+
+  .single-document-right-col {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: white;
+    margin-right: 2em;
+    margin-top: 1em;
+    font-family: Lato, "Open Sans", sans-serif;
+    margin-left: unset;
+    width: unset;
+  }
+}

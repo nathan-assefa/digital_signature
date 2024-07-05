@@ -1,0 +1,85 @@
+.signature-canvas {
+  position: absolute;
+  top: 35%;
+}
+
+.document-sign-page {
+  line-height: 24px;
+  font-weight: lighter;
+  font-size: 14px;
+  color: #e36d65;
+  text-align: center;
+  letter-spacing: 0.4px;
+  margin-top: 1.6em;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.click-on-canvas {
+  color: black;
+  font-size: 18px;
+}
+
+.sign-pdf-document {
+  height: 100vh;
+  width: 80%;
+}
+
+.signing-pdf-doc {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pop-up-pad {
+  width: 305px;
+  height: 200px;
+}
+
+.sigCanvas {
+  background: #4b9cd7;
+  width: 100%;
+}
+
+.sign-bord {
+  background: white;
+  border: 1px solid rgb(197, 189, 189);
+}
+
+.sign-canvas-footer {
+  display: flex;
+  align-items: center;
+}
+
+.sign-canvas-footer .handle-clear,
+.sign-canvas-footer .handle-generator {
+  width: 30%;
+  height: 34px;
+  color: white;
+  font-weight: bold;
+  line-height: 21px;
+  font-size: 14px;
+  font-family: Lato;
+  border: 2px solid white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: black;
+  cursor: pointer;
+}
+
+.loading-spinner {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  width: 1000px;
+  height: 1000px;
+}
+
+@media screen and (min-width: 850px) {
+  .pop-up-pad {
+    width: 305px;
+    height: 200px;
+  }
+}

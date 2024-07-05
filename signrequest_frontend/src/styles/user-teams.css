@@ -1,0 +1,141 @@
+.user-teams-wrapper {
+  position: absolute;
+  right: 1em;
+}
+
+.find-teams {
+  background: var(--blue-color);
+  width: 55%;
+  height: 4em;
+  display: flex;
+  align-items: center;
+  padding-left: 1em;
+  padding-top: 0.5em;
+  padding-right: 0.5em;
+  margin-left: auto;
+  border: none;
+  border-radius: 0.3em;
+  margin-top: 1em;
+  color: white;
+  font-family: Poppins;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  font-weight: lighter;
+}
+
+.find-teams:hover {
+  background: rgb(53, 126, 185);
+}
+
+.user-teams {
+  position: absolute;
+  right: 0;
+  height: 366px;
+  width: 320px;
+  padding-top: 0.5em;
+  padding-left: 1em;
+  margin-left: 1em;
+  margin-top: -0.5em;
+  margin-right: -1em;
+  padding-bottom: 1em;
+  border: 1px solid rgb(197, 189, 189);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  z-index: 99999999;
+  background: white;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.owner-info-container {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 1em;
+  align-items: center;
+}
+
+.team-owner {
+  color: rgb(121, 117, 117);
+  height: 22px;
+  width: 22px;
+  margin-right: 0.5em;
+}
+
+.user-team-info {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 1em;
+  align-items: center;
+  border-bottom: 1px solid rgb(197, 189, 189);
+}
+
+.find-teams {
+  cursor: pointer;
+}
+
+.owner-title {
+  color: black;
+  font-size: 15px;
+}
+
+.owner-name {
+  color: green;
+  margin-top: -1em;
+  font-size: 13px;
+}
+
+.name-of-team {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  margin-right: -1em;
+  font-size: 15px;
+}
+
+.user-team-icon {
+  color: rgb(121, 117, 117);
+  height: 20px;
+  width: 20px;
+  margin-right: 0.3em;
+  /* margin-right: 0.5em; */
+}
+
+.user-team-name {
+  width: 80%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.join-the-team {
+  min-width: 220px;
+  min-height: 34px;
+  color: white;
+  font-weight: bold;
+  line-height: 21px;
+  font-size: 16px;
+  font-family: Lato;
+  border: none;
+  padding: 2em;
+  margin-top: 2em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: var(--blue-color);
+  cursor: pointer;
+}
+
+.user-invitation-page {
+  width: 100%;
+  height: 100vh;
+}
+
+@media screen and (min-width: 850px) {
+  .find-teams {
+    width: 100%;
+    margin-right: auto;
+    margin-top: 2em;
+    padding-top: unset;
+    padding-bold: unset;
+    font-size: 14px;
+  }
+}

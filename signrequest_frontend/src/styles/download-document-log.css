@@ -1,0 +1,250 @@
+:root {
+  --blue-color: #4b9cd7;
+  --green-color: rgb(72, 220, 72);
+  --bold-blue-color: #1569a6;
+}
+
+.download-document-wrapper {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+}
+
+.download-document-right-col {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: white;
+  /* margin-right: 2em; */
+  margin-top: 1em;
+  font-family: Lato, "Open Sans", sans-serif;
+}
+
+.download-document-header {
+  background: var(--green-color);
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  padding-left: 1em;
+}
+
+.download-document-header .docs {
+  color: white;
+  font-weight: bold;
+  /* font-size: 12px; */
+  font-size: 14px;
+  font-family: Lato;
+  line-height: 24px;
+}
+
+.download-document-header .docs-name {
+  color: white;
+  font-weight: lighter;
+  /* font-size: 12px; */
+  font-size: 14px;
+  font-family: Lato;
+  line-height: 24px;
+}
+
+.download-doc-detail {
+  display: flex;
+  align-items: center;
+  margin-left: 2em;
+}
+
+.download-doc-detail .doc-detail {
+  margin-left: 1em;
+}
+
+.download-doc-detail .document-detail-icon {
+  color: rgb(137, 128, 128);
+  height: 22px;
+  width: 22px;
+}
+
+.download-doc-detail .doc-name {
+  /* font-size: 12.8px; */
+  font-size: 14px;
+  color: #443f3f;
+  font-weight: 600;
+  line-height: 24px;
+  font-family: Lato;
+}
+
+.download-doc-detail .signed-date,
+.document-id,
+.is-signed {
+  /* font-size: 11px; */
+  font-size: 13px;
+  line-height: 8px;
+  font-weight: lighter;
+  font-family: Lato;
+  color: #837c7c;
+  font-family: Lato;
+}
+
+.download-doc-detail .signed-date {
+  margin-top: -0.8em;
+}
+
+.download-doc-detail .doc-status {
+  display: flex;
+  align-items: center;
+  margin-top: 1.2em;
+}
+
+.download-doc-detail .doc-st-icon {
+  margin-right: 0.3em;
+}
+
+.download-doc-detail .is-signed {
+  margin-top: -1em;
+}
+
+.download-document-wrapper .doc-btn {
+  min-width: 10%;
+  height: 34px;
+  color: white;
+  font-weight: bold;
+  line-height: 21px;
+  /* font-size: 12px; */
+  font-size: 14px;
+  font-family: Lato;
+  border: none;
+  margin-top: 2em;
+  display: block;
+  background: var(--green-color);
+  cursor: pointer;
+}
+
+.download-document-wrapper .download-document {
+  margin-right: 1em;
+}
+
+.download-document-wrapper .download-signing-log {
+  margin-left: 1em;
+}
+
+.download-document-wrapper .recipient-info {
+  margin-left: 2em;
+}
+
+.download-document-wrapper .recipient-info .recipient {
+  /* font-size: 12px; */
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: Lato;
+  color: #222222;
+}
+
+.download-document-wrapper .recipient-info .doc-sender {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 2em;
+  padding-left: 0.5em;
+  border: 1px solid rgb(218, 211, 211);
+  border-bottom: none;
+}
+
+.download-document-wrapper .recipient-info .sender-email,
+.recivier-email {
+  color: var(--bold-blue-color);
+  /* font-size: 12px; */
+  font-size: 14px;
+  line-height: 24px;
+
+  font-weight: 600;
+}
+
+.download-document-wrapper .recipient-info .doc-recivier {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 2em;
+  padding-left: 0.5em;
+  border: 1px solid rgb(218, 211, 211);
+}
+
+.download-document-wrapper .recipient-info .doc-stat,
+.recivier-signed,
+.doc-sign-date {
+  /* font-size: 12px; */
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  color: rgb(179, 168, 168);
+}
+
+.download-document-wrapper .recipient-info .recivier-signed {
+  margin-top: -0.5em;
+  color: #51df0a;
+}
+
+.download-document-wrapper .sender-message {
+  margin-left: 2em;
+  font-family: Lato;
+}
+
+.download-document-wrapper .sender-message .email-info {
+  /* font-size: 12px; */
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: Lato;
+  color: #222222;
+}
+
+.download-document-wrapper .sender-message .sender-msg {
+  font-size: 11px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: Lato;
+  color: #837c7c;
+}
+
+.download-document-wrapper .sender-message .msg-detail {
+  margin-left: 2em;
+  padding-left: 0.5em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  border-left: 1px solid rgb(218, 211, 211);
+  /* font-size: 12px; */
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: Lato;
+  color: #a08d8d;
+  font-weight: lighter;
+}
+
+.download-document-wrapper .sender-message .msg-detail span {
+  color: var(--bold-blue-color);
+}
+
+@media screen and (min-width: 850px) {
+  .download-documents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .download-document-wrapper .doc-btn {
+    width: 160.3px;
+    height: 34px;
+    color: white;
+    font-weight: bold;
+    line-height: 21px;
+    /* font-size: 12px; */
+    font-size: 14px;
+    font-family: Lato;
+    border: none;
+    margin-top: 2em;
+    display: block;
+    background: var(--green-color);
+    cursor: pointer;
+  }
+}

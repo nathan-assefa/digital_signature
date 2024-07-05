@@ -1,0 +1,97 @@
+.user-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  z-index: 1000;
+  height: 217px;
+  width: 80%;
+  border-radius: 10px;
+  padding-bottom: 2em;
+  overflow-y: auto;
+  scrollbar-width: none; /* Firefox */
+  cursor: pointer;
+}
+
+.modal-btn {
+  background: var(--blue-color);
+  color: white;
+  border: none;
+  padding: 0.3em 0.6em;
+  border-radius: 10px;
+  font-size: 12.8px;
+  font-weight: lighter;
+  cursor: pointer;
+  float: right;
+}
+
+.popup-container {
+  background: white;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.popup-add-file {
+  background: var(--blue-color);
+  width: 90%;
+  height: 3em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4em;
+  border: none;
+  border-radius: 10px;
+  margin-top: 3em;
+  color: white;
+  font-family: Poppins;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+}
+
+.popupleft-col-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.popup-sign-btn {
+  background: none;
+  width: 10em;
+  height: 3em;
+  border: none;
+  border-radius: 2em;
+  color: rgb(139, 130, 130);
+  font-size: 18px;
+  font-family: Lato;
+  font-weight: bold;
+}
+
+.popup-help-btn,
+.popup-setting-btn {
+  color: var(--blue-color);
+  border: none;
+  font-weight: bold;
+  font-family: Lato;
+  background: none;
+  cursor: pointer;
+}
+
+.popup-help-btn {
+  margin-left: -4em;
+}
+
+.popup-setting-btn {
+  margin-right: -4em;
+}
+
+@media screen and (min-width: 850px) {
+  .user-modal {
+    height: 367px;
+    width: 50%;
+  }
+
+  .popupleft-col-footer {
+    margin-top: 12em;
+  }
+}

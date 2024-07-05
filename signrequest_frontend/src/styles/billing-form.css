@@ -1,0 +1,64 @@
+:root {
+  --blue-color: #4b9cd7;
+  --bold-blue-color: #1569a6;
+}
+
+.bill-label {
+  font-family: Lato, "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(34, 29, 29, 0.87);
+}
+
+.bill-input {
+  border: none;
+  border: 1px solid #cdc8c8;
+  display: block;
+  margin-bottom: 1em;
+  outline: none;
+  width: 95%;
+  height: 2.4em;
+}
+
+.bill-input::placeholder {
+  /* font-size: 12px; */
+  font-size: 13px;
+  color: rgb(167, 160, 160);
+}
+
+.bill-save {
+  width: 88px;
+  height: 36px;
+  background: var(--blue-color);
+  border: none;
+  color: white;
+  font-family: Lato, "Open Sans", sans-serif;
+  line-height: 24px;
+  /* font-size: 14px; */
+  font-size: 15px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 950px) {
+  .bill-input {
+    width: 49em;
+  }
+
+  .bill-form-wrapper .firt-and-last-name {
+    display: flex;
+  }
+
+  .bill-form-wrapper .first-name-input {
+    width: 20em;
+  }
+
+  .bill-form-wrapper .last-name-input {
+    width: 26.5em;
+  }
+
+  .bill-form-wrapper .bill-lastName,
+  .bill-form-wrapper .last-name-input {
+    margin-left: 2em;
+  }
+}

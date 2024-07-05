@@ -1,0 +1,63 @@
+/*This is for footer */
+.footer-container {
+  width: 100%;
+  background: #4c6678;
+  color: #fff;
+  padding: 1.5em 0;
+  margin-top: 11em;
+}
+
+.footer-menu {
+  margin-left: 1.3em;
+  position: relative;
+}
+
+.footer-menu .single-footer-menu {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 28px;
+  text-align: left;
+  color: white;
+  max-width: 23%;
+}
+
+.footer-menu .single-footer-menu:hover {
+  text-decoration: underline;
+}
+
+.footer-menu .signing-picuture {
+  display: block;
+  background-image: url("../images/sign-3.jpg");
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  top: -4em;
+  width: 170px;
+  z-index: 9999;
+  height: 130px;
+}
+
+@media screen and (min-width: 850px) {
+  .footer-menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-menu .single-footer-menu {
+    max-width: unset;
+  }
+
+  .footer-menu .foot-left-col {
+    margin-right: 3em;
+  }
+
+  .footer-menu .foot-right-col {
+    margin-left: 3em;
+  }
+
+  .footer-menu .signing-picuture {
+    left: -1.3em;
+    top: -4em;
+  }
+}
